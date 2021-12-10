@@ -10,3 +10,6 @@ return a flat mapping and [KGX](https://github.com/biolink/kgx)-compatible graph
 * PubMed abstracts, as per PubTator term mentions and MeSH
 
 This text will be concatenated and will be used to assemble language model (e.g., BERT) applications in producing more informative node embeddings of knowledge graphs.
+
+# Related projects
+* [agr_genedescriptions](https://github.com/alliance-genome/agr_genedescriptions)
