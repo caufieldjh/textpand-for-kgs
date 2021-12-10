@@ -13,3 +13,4 @@ This text will be concatenated and will be used to assemble language model (e.g.
 
 # Related projects
 * [agr_genedescriptions](https://github.com/alliance-genome/agr_genedescriptions)
+* [ontoRunNER](https://github.com/monarch-initiative/ontorunner) - this is essentially doing the opposite, i.e., turning text into ontology terms
