@@ -23,12 +23,14 @@
   # UniProtKB - Swiss-Prot
   url: https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz
   local_name: uniprot_sprot.dat.gz
--
+#-
   # Wikipedia EN dump
-  url: https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles-multistream.xml.bz2
-  local_name: enwiki.xml.bz2
--
+  # Note this requires special handing due to its size (raises OverflowError)
+  #url: https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles-multistream.xml.bz2
+  #local_name: enwiki.xml.bz2
+#-
   # Wikidata dump in nt format
-  url: https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.nt.bz2
-  local_name: wikidata.nt.bz2
+  # As with WP-EN, this is very large and requires specific handling
+  #url: https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.nt.bz2
+  #local_name: wikidata.nt.bz2
 
